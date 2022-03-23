@@ -1,3 +1,51 @@
-/* montserrat */
+/* Arimo */
+@font-face {
+   font-family: 'Arimo';
+   src: url('../graphic/fonts/Arimo-Regular.eot');
+   src: local('Arimo Regular'), local('Arimo-Regular'),
+       url('../graphic/fonts/Arimo-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../graphic/fonts/Arimo-Regular.woff2') format('woff2'),
+       url('../graphic/fonts/Arimo-Regular.woff') format('woff'),
+       url('../graphic/fonts/Arimo-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+/* Arimo */
 
-/* montserrat */
+/* Rubik */
+@font-face {
+   font-family: 'Rubik';
+   src: url('../graphic/fonts/Rubik-Bold.eot');
+   src: local('Rubik Bold'), local('Rubik-Bold'),
+       url('../graphic/fonts/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../graphic/fonts/Rubik-Bold.woff2') format('woff2'),
+       url('../graphic/fonts/Rubik-Bold.woff') format('woff'),
+       url('../graphic/fonts/Rubik-Bold.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Rubik';
+   src: url('../graphic/fonts/Rubik-Medium.eot');
+   src: local('Rubik Medium'), local('Rubik-Medium'),
+       url('../graphic/fonts/Rubik-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../graphic/fonts/Rubik-Medium.woff2') format('woff2'),
+       url('../graphic/fonts/Rubik-Medium.woff') format('woff'),
+       url('../graphic/fonts/Rubik-Medium.ttf') format('truetype');
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Rubik';
+   src: url('../graphic/fonts/Rubik-Regular.eot');
+   src: local('Rubik Regular'), local('Rubik-Regular'),
+       url('../graphic/fonts/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../graphic/fonts/Rubik-Regular.woff2') format('woff2'),
+       url('../graphic/fonts/Rubik-Regular.woff') format('woff'),
+       url('../graphic/fonts/Rubik-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+/* Rubik */

@@ -1,0 +1,72 @@
+# ACCESS LIMITATION
+IndexIgnore *
+Options All -Indexes
+
+<FilesMatch "\.(log|txt|sql)$">
+	Order allow,deny
+	Deny from all
+</FilesMatch>
+
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+	Order allow,deny
+	Deny from all
+	Satisfy all
+</Files>
+
+<Files "config.php">
+	Order deny,allow
+	Deny from all
+</Files>
+
+RewriteEngine On
+RewriteRule (^|/)logs(/|$) - [F]
+
+# WRITE PHP LOGS TO FILE
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
+php_flag log_errors on
+php_value error_log ./logs/error.log
+
+# DISABLE CACHING
+<IfModule mod_headers.c>
+	Header set Cache-Control "no-cache, no-store, must-revalidate"
+	Header set Pragma "no-cache"
+	Header set Expires 0
+</IfModule>
+
+<FilesMatch "\.(html?|php|css|js)$">
+	<IfModule mod_expires.c>
+		ExpiresActive Off
+	</IfModule>
+	<IfModule mod_headers.c>
+		FileETag None
+		Header unset ETag
+		Header unset Pragma
+		Header unset Cache-Control
+		Header unset Last-Modified
+		Header set Pragma "no-cache"
+		Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+		Header set Expires "Thu, 1 Jan 1970 00:00:00 GMT"
+	</IfModule>
+</FilesMatch>
+
+# GZIP COMPRESSION
+<IfModule mod_gzip.c>
+	mod_gzip_on Yes
+	mod_gzip_dechunk Yes
+	mod_gzip_item_include file \.(html?|php|css|js)$
+	mod_gzip_item_include handler ^cgi-script$
+	mod_gzip_item_include mime ^text\.*
+	mod_gzip_item_include mime ^application/x-javascript.*
+	mod_gzip_item_exclude mime ^image\.*
+	mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</IfModule>
+
+# REDIRECTIONS
+ErrorDocument 400 /
+ErrorDocument 403 /
+ErrorDocument 404 /
+ErrorDocument 500 /
+ErrorDocument 502 /
+ErrorDocument 503 /

@@ -1,0 +1,93 @@
+ /*desktop */
+@media screen and (max-width: 1290px) {
+	/* global */
+		.wrapper {
+			max-width: initial;
+			padding: 0 20px;
+		}
+	/* global */
+
+	/* navbar */
+	/* navbar */
+
+	/* header */
+	/* header */
+
+	/* content */
+	/* content */
+
+	/* footer */
+	/* footer */
+}
+
+/* netbook */
+@media screen and (max-width: 1024px) {
+	/* global */
+	/* global */
+
+	/* navbar */
+	/* navbar */
+
+	/* header */
+	/* header */
+
+	/* content */
+	/* content */
+
+	/* footer */
+	/* footer */
+}
+
+/* tablet */
+@media screen and (max-width: 996px) {
+	/* global */
+	/* global */
+
+	/* navbar */
+	/* navbar */
+
+	/* header */
+	/* header */
+
+	/* content */
+	/* content */
+
+	/* footer */
+	/* footer */
+}
+
+/* mini tablet */
+@media screen and (max-width: 600px) {
+	/* global */
+	/* global */
+
+	/* navbar */
+	/* navbar */
+
+	/* header */
+	/* header */
+
+	/* content */
+	/* content */
+
+	/* footer */
+	/* footer */
+}
+
+/* mobile */
+@media screen and (max-width: 420px) {
+	/* global */
+	/* global */
+
+	/* navbar */
+	/* navbar */
+
+	/* header */
+	/* header */
+
+	/* content */
+	/* content */
+
+	/* footer */
+	/* footer */
+}

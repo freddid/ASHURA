@@ -117,11 +117,12 @@ select {
 .main {
   position: relative;
   background-color: #FDE2B7;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .main__container {
   display: flex;
+  min-height: 990px;
   align-items: center;
   height: calc(100vh - 101px);
   justify-content: space-between;
@@ -157,25 +158,64 @@ select {
   margin-right: -115px;
 }
 
-.main__bg__png{
+.main__bg__png {
   bottom: 0;
   position: absolute;
   left: 0;
   width: 100%;
 }
 
-.main__bg__png img{
+.main__bg__png img {
   width: 100%;
 }
+
 /* main */
 
 /* projects */
-.projects{
+.projects {
   padding: 60px 0 148px;
 }
 
-.projects__cards{
+.projects__cards {
   display: flex;
+  margin-top: 99px;
   justify-content: space-between;
 }
+
+.projects__card__content {
+  padding: 20px 30px;
+  min-height: 265px;
+  background: #FCFCFC;
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+}
+
+.projects__card__name {
+  font-size: 24px;
+}
+
+.projects__card__descript {
+  margin: 5px 0 10px;
+}
+
+.projects__card__descript span {
+  font-weight: 500;
+  color: #258F67;
+}
+
+.projects__card__price {
+  font-weight: 600;
+}
+
+.projects__card__btn {
+  background: #258F67;
+  box-shadow: 0px 4px 10px rgb(37 143 103 / 20%);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  position: absolute;
+  bottom: 30px;
+  padding: 16px 44px;
+}
+
 /* projects */

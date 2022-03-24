@@ -57,7 +57,7 @@ select {
   font: inherit;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
@@ -185,6 +185,10 @@ button{
   padding: 60px 0 148px;
 }
 
+.projects .wrapper{
+  padding: 0;
+}
+
 .projects__cards {
   display: flex;
   margin-top: 99px;
@@ -228,22 +232,56 @@ button{
   padding: 16px 44px;
 }
 
+.projects__card{
+  margin: 0 15px;
+}
+
 .projects__card__img img {
-  width: 374px;
+  width: 100%;
   height: 270px;
-  background: #FCFCFC;
   box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.15);
   border-radius: 10px 10px 0 0;
 }
+
 /* projects */
 
 /* about */
 .about {
+  background: url(../graphic/images/png/about-bg.png)no-repeat center;
   padding: 70px 0 77px;
 }
 
+.about__img::after, .about__img::before {
+  width: 150px;
+  height: 150px;
+  content: '';
+  position: absolute;
+  top: -37px;
+  left: -37px;
+  border: 2px solid #258F67;
+  border-bottom: none;
+  border-right: none;
+  border-top-left-radius: 30px;
+}
+
+.about__img::before {
+  top: unset;
+  left: unset;
+  bottom: -37px;
+  right: -37px;
+  transform: rotate(180deg);
+}
+
+.about__img {
+  margin-right: 37px;
+  position: relative;
+}
+
+.about__img img {
+  border-radius: 30px;
+}
+
 .about__contante {
-  background: url(../graphic/images/png/about-bg.png)no-repeat center;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -257,11 +295,16 @@ button{
   line-height: 170%;
   margin-right: 100px;
 }
+
 /* about */
 
 /* tasks */
 .tasks {
   padding: 70px 0 220px;
+}
+
+.tasks .wrapper{
+  padding: 0;
 }
 
 .tasks__cards {
@@ -270,29 +313,31 @@ button{
   margin-top: 74px;
 }
 
-.tasks__card{
+.tasks__card {
   background: #258F67;
-    max-width: 400px;
-    box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
-    color: #F7F7F7;
-    border-radius: 20px;
-    padding: 30px 25px 50px 15px;
+  max-width: 400px;
+  box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
+  color: #F7F7F7;
+  border-radius: 20px;
+  padding: 30px 25px 50px 15px;
+  margin: 0 10px;
 }
 
-.tasks__card__title{
+.tasks__card__title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.tasks__card__title span{
+.tasks__card__title span {
   font-weight: 600;
-    font-size: 26px;
+  font-size: 26px;
 }
 
-.tasks__card__txt{
+.tasks__card__txt {
   font-family: 'Arimo';
-    line-height: 140%;
-    margin-top: 15px;
+  line-height: 140%;
+  margin-top: 15px;
 }
+
 /* tasks */

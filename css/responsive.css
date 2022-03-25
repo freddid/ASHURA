@@ -45,6 +45,7 @@
  	}
 
  	/* global */
+
  	/* main */
  	.main__img {
  		height: auto;
@@ -116,36 +117,141 @@
  	}
 
  	/* tasks */
+
+ 	/* footer */
+ 	.footer {
+ 		padding: 40px 0 60px;
+ 	}
+
+ 	/* footer */
  }
 
  /* mini tablet */
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 780px) {
  	/* global */
  	/* global */
 
- 	/* navbar */
- 	/* navbar */
+ 	/* main */
+ 	.main {
+ 		margin: 0;
+ 		height: auto;
+ 		padding: 52px 0;
+ 	}
+
+ 	.main__container {
+ 		flex-direction: column;
+ 	}
+
+ 	.main__btn {
+ 		padding: 19px 41px;
+ 	}
+
+ 	.main__content {
+ 		margin: 0;
+ 		max-width: none;
+ 		margin-bottom: 60px;
+ 	}
+
+ 	/* main */
 
  	/* header */
+ 	.header__menu, .header__select {
+ 		display: none;
+ 	}
+
+ 	.header__hamburger-menu {
+ 		display: flex;
+ 	}
+
+ 	.header__hamburger-menu .header__select {
+ 		display: block;
+ 	}
+
  	/* header */
 
- 	/* content */
- 	/* content */
+ 	/* projects */
+ 	.projects {
+ 		padding-bottom: 40px;
+ 	}
 
- 	/* footer */
- 	/* footer */
+ 	.projects__cards {
+ 		flex-direction: column;
+ 		max-width: 500px;
+ 		margin: 0 auto;
+ 		margin-top: 60px;
+ 	}
+
+ 	.projects__card {
+ 		margin: 20px 10px;
+ 	}
+
+ 	/* projects */
+
+ 	/* about */
+ 	.about__contante {
+ 		flex-direction: column;
+ 	}
+
+ 	.about__txt {
+ 		max-width: none;
+ 		margin: 0;
+ 		margin-bottom: 50px;
+ 	}
+
+ 	.about__img {
+ 		margin: 0;
+ 	}
+
+ 	/* about */
+
+ 	/* tasks */
+ 	.tasks__card {
+ 		max-width: 500px;
+ 	}
+
+ 	/* tasks */
  }
 
  /* mobile */
- @media screen and (max-width: 420px) {
+ @media screen and (max-width: 480px) {
+
  	/* global */
+ 	.wrapper {
+ 		padding: 0 15px;
+ 	}
+
  	/* global */
+ 	/* title */
+ 	.title {
+ 		font-size: 28px;
+ 	}
+
+ 	/* title */
+
+ 	/* about */
+ 	.about__img::after {
+ 		top: 0;
+ 		left: 0;
+ 	}
+
+ 	.about__img::before {
+ 		bottom: 0;
+ 		right: 0;
+ 	}
+
+ 	.about__img img {
+ 		padding: 20px;
+ 	}
+
+ 	/* about */
 
  	/* navbar */
  	/* navbar */
 
  	/* header */
  	/* header */
+
+
 
  	/* content */
  	/* content */

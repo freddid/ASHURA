@@ -170,7 +170,9 @@ button {
   line-height: 140%;
 }
 
-.main__img {height: 53%;}
+.main__img {
+    height: 59%;
+}
 
 .main__bg__png {
   bottom: 0px;

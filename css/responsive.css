@@ -1,12 +1,7 @@
  /*desktop */
  @media screen and (max-width: 1290px) {
- 	/* global */
- 	/* global */
 
- 	/* navbar */
- 	/* navbar */
-
- 	/* header */
+ 	/* main */
  	.main__title {
  		font-size: 40px;
  	}
@@ -19,13 +14,8 @@
  		max-width: 61%;
  		margin-right: 42px;
  	}
- 	/* header */
 
- 	/* content */
- 	/* content */
-
- 	/* footer */
- 	/* footer */
+ 	/* main */
  }
 
  /* netbook */
@@ -48,20 +38,84 @@
 
  /* tablet */
  @media screen and (max-width: 996px) {
+
  	/* global */
+ 	.title {
+ 		font-size: 38px;
+ 	}
+
  	/* global */
+ 	/* main */
+ 	.main__img {
+ 		height: auto;
+ 	}
 
- 	/* navbar */
- 	/* navbar */
+ 	.main__descript {
+ 		line-height: 130%;
+ 		font-size: 16px;
+ 	}
 
- 	/* header */
- 	/* header */
+ 	.main__title {
+ 		font-size: 30px;
+ 	}
 
- 	/* content */
- 	/* content */
+ 	/* main */
 
- 	/* footer */
- 	/* footer */
+ 	/* projects */
+ 	.projects__card__name {
+ 		font-size: 20px;
+ 	}
+
+ 	.projects__card__content {
+ 		padding: 20px 15px;
+ 	}
+
+ 	.projects {
+ 		padding-bottom: 88px;
+ 	}
+
+ 	/* projects */
+
+ 	/* about */
+ 	.about__txt {
+ 		font-size: 18px;
+ 		max-width: 50%;
+ 		margin-right: 50px;
+ 		line-height: 140%;
+ 	}
+
+ 	.about__img::after {
+ 		top: -15px;
+ 		left: -15px;
+ 	}
+
+ 	.about__img::before {
+ 		bottom: -15px;
+ 		right: -15px;
+ 	}
+
+ 	.about {
+ 		padding-bottom: 0;
+ 	}
+
+ 	/* about */
+
+ 	/* tasks */
+ 	.tasks__card {
+ 		max-width: 330px;
+ 		margin-bottom: 20px;
+ 	}
+
+ 	.tasks__cards {
+ 		justify-content: center;
+ 		flex-wrap: wrap;
+ 	}
+
+ 	.tasks {
+ 		padding-bottom: 50px;
+ 	}
+
+ 	/* tasks */
  }
 
  /* mini tablet */

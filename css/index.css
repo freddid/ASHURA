@@ -124,7 +124,7 @@ button {
   position: relative;
   background-color: #FDE2B7;
   overflow: hidden;
-  height: 100vh;
+  height: calc(100vh + 180px);
   margin-top: -101px;
 }
 
@@ -179,7 +179,7 @@ button {
 .main__bg__png {
   bottom: 0px;
   position: absolute;
-  height: 14%;
+  max-height: 180px;
   left: 0;
   width: 100%;
 }

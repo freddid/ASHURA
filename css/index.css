@@ -142,7 +142,7 @@ button {
 }
 
 .main__content {
-  max-width: 61%;
+  max-width: 49%;
   margin-right: 100px;
 }
 
@@ -173,7 +173,6 @@ button {
 }
 
 .main__img {
-  height: auto;
 }
 
 .main__bg__png {

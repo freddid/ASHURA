@@ -118,6 +118,13 @@
 
  	/* tasks */
 
+ 	/* mission */
+ 	.mission {
+ 		padding-bottom: 80px;
+ 	}
+
+ 	/* mission */
+
  	/* footer */
  	.footer {
  		padding: 40px 0 60px;
@@ -132,6 +139,10 @@
  	/* global */
 
  	/* main */
+ 	main::after {
+ 		top: 10%;
+ 	}
+
  	.main {
  		margin: 0;
  		height: auto;
@@ -210,6 +221,36 @@
  	}
 
  	/* tasks */
+
+ 	/* mission */
+ 	.mission__contante {
+ 		flex-direction: column-reverse;
+ 	}
+
+ 	/* mission */
+
+ 	/* footer */
+ 	.footer__columns {
+ 		flex-direction: column;
+ 		align-items: center;
+ 		text-align: center;
+ 	}
+
+ 	.footer__column_2 {
+ 		margin-top: 40px;
+ 	}
+
+ 	.footer__column__el {
+ 		font-size: 22px;
+ 	}
+
+ 	.footer__column__el_title {
+ 		text-align: center;
+ 		font-size: 40px;
+ 		margin-bottom: 40px;
+ 	}
+
+ 	/* footer */
  }
 
  /* mobile */
@@ -257,5 +298,22 @@
  	/* content */
 
  	/* footer */
+
+ 	.footer__column_2 .footer__column__el_title {
+ 		text-align: left;
+ 	}
+
+ 	.footer__columns {
+ 		text-align: left;
+ 	}
+
+ 	.footer__column__el:last-child {
+ 		margin: 0;
+ 	}
+
+ 	.footer__columns {
+ 		align-items: flex-start;
+ 	}
+
  	/* footer */
  }

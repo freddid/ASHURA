@@ -287,6 +287,15 @@
 
  	/* about */
 
+ 	.tasks__card {
+ 		max-width: 345px;
+ 	}
+
+ 	.projects__card {
+ 		max-width: 345px;
+ 		margin: 20px auto;
+ 	}
+
  	/* navbar */
  	/* navbar */
 

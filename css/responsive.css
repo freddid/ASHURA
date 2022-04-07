@@ -104,7 +104,7 @@
  	/* tasks */
  	.tasks__card {
  		max-width: 330px;
- 		margin-bottom: 20px;
+ 		margin-bottom: 33px;
  	}
 
  	.tasks__cards {
@@ -262,6 +262,7 @@
  	}
 
  	/* global */
+
  	/* title */
  	.title {
  		font-size: 28px;
@@ -291,8 +292,6 @@
 
  	/* header */
  	/* header */
-
-
 
  	/* content */
  	/* content */

@@ -31,15 +31,11 @@
          </label>
          <div class="menu__box">
             <ul>
-               <li><a class="menu__item" href="#">Главная</a></li>
-               <li><a class="menu__item" href="#">Проекты</a></li>
-               <li><a class="menu__item" href="#">О нас</a></li>
-               <li><a class="menu__item" href="#">Контакты</a></li>
+               <li><a class="menu__item" href="#">Чем мы занимаемся? </a></li>
+               <li><a class="menu__item" href="#">Наши задачи</a></li>
+               <li><a class="menu__item" href="#">Наша миссия</a></li>
             </ul>
-            <select class="header__select">
-               <option>RU</option>
-               <option>EN</option>
-            </select>
+            <a class="btn menu__box__btn" href="./all-projects.php">Оказать помощь</a>
          </div>
       </div>
    </div>

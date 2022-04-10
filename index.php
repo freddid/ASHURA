@@ -35,9 +35,9 @@
 						тяжелобольным детям, детям сиротам, а также людям потерявшим надежду в жизни. Мы с Вами в силах
 						поддержать их! Да будут благословенны все деяния направленные от сердца. Да поможет нам Всевышний!
 					</div>
-					<button class="main__btn btn">
+					<a href="./all-projects.php" class="main__btn btn">
 						Хочу помочь
-					</button>
+					</a>
 				</div>
 				<div class="main__img">
 					<div class="icon__blocks">
@@ -189,6 +189,7 @@
 
 	<?php require("./footer.php") ?>
 
+	<script type="text/javascript" src="./js/libs/jquery/jquery-3.6.0.js"></script>
 	<script type="text/javascript" src="./js/index.js"></script>
 </body>
 

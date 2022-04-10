@@ -119,6 +119,7 @@ $url = './graphic/projects/1';
 
    <?php require("./footer.php") ?>
 
+	<script type="text/javascript" src="./js/libs/jquery/jquery-3.6.0.js"></script>
    <script type="text/javascript" src="./js/index.js"></script>
 </body>
 
